@@ -14,12 +14,12 @@ public class Base {
 	   return driver;
     }
 	
-//	public static WebDriver openFriefoxBrowser()
-//	{
-//	   System.setProperty("webdriver.gecko.driver","D:\\Selenium Library Tools\\geckodriver-v0.32.2-win-aarch64\\geckodriver.exe");
-//	   WebDriver driver = new FirefoxDriver();
-//	   return driver;
-//    }
+	public static WebDriver openFriefoxBrowser()
+	{
+	   System.setProperty("webdriver.gecko.driver","D:\\Selenium Library Tools\\geckodriver-v0.32.2-win-aarch64\\geckodriver.exe");
+	   WebDriver driver = new FirefoxDriver();
+	   return driver;
+    }
 		
 	public static WebDriver openmsedgeBrowser()
 	{
