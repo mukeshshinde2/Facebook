@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-30T22:08:54 IST" name="RegressionSuite" finished-at="2023-03-30T22:11:35 IST" duration-ms="160712">
+    <groups>
+    </groups>
+    <test started-at="2023-03-30T22:08:54 IST" name="ChromeTest" finished-at="2023-03-30T22:10:32 IST" duration-ms="97257">
+      <class name="Testpack.VerifyToDesktop">
+        <test-method is-config="true" signature="Browserlunch(java.lang.String)[pri:0, instance:Testpack.VerifyToDesktop@53ce1329]" started-at="2023-03-30T22:08:54 IST" name="Browserlunch" finished-at="2023-03-30T22:08:56 IST" duration-ms="1625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserlunch -->
+        <test-method is-config="true" signature="POMObject()[pri:0, instance:Testpack.VerifyToDesktop@53ce1329]" started-at="2023-03-30T22:08:57 IST" name="POMObject" finished-at="2023-03-30T22:08:57 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- POMObject -->
+        <test-method is-config="true" signature="OpenToFeatures()[pri:0, instance:Testpack.VerifyToDesktop@53ce1329]" started-at="2023-03-30T22:08:57 IST" name="OpenToFeatures" finished-at="2023-03-30T22:09:43 IST" duration-ms="46248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenToFeatures -->
+        <test-method signature="VerifyToDesktopTab()[pri:0, instance:Testpack.VerifyToDesktop@53ce1329]" started-at="2023-03-30T22:09:43 IST" name="VerifyToDesktopTab" finished-at="2023-03-30T22:09:44 IST" duration-ms="831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyToDesktopTab -->
+        <test-method is-config="true" signature="LogOutApplication()[pri:0, instance:Testpack.VerifyToDesktop@53ce1329]" started-at="2023-03-30T22:09:44 IST" name="LogOutApplication" finished-at="2023-03-30T22:09:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutApplication -->
+        <test-method is-config="true" signature="OpenToFeatures()[pri:0, instance:Testpack.VerifyToDesktop@53ce1329]" started-at="2023-03-30T22:09:44 IST" name="OpenToFeatures" finished-at="2023-03-30T22:10:29 IST" duration-ms="44568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenToFeatures -->
+        <test-method signature="verifyTofeatures()[pri:0, instance:Testpack.VerifyToDesktop@53ce1329]" started-at="2023-03-30T22:10:29 IST" name="verifyTofeatures" finished-at="2023-03-30T22:10:31 IST" duration-ms="2017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTofeatures -->
+        <test-method is-config="true" signature="LogOutApplication()[pri:0, instance:Testpack.VerifyToDesktop@53ce1329]" started-at="2023-03-30T22:10:31 IST" name="LogOutApplication" finished-at="2023-03-30T22:10:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutApplication -->
+        <test-method is-config="true" signature="ClearObject()[pri:0, instance:Testpack.VerifyToDesktop@53ce1329]" started-at="2023-03-30T22:10:31 IST" name="ClearObject" finished-at="2023-03-30T22:10:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearObject -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Testpack.VerifyToDesktop@53ce1329]" started-at="2023-03-30T22:10:31 IST" name="closeBrowser" finished-at="2023-03-30T22:10:32 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Testpack.VerifyToDesktop -->
+      <class name="Testpack.VerifyToFeatures">
+        <test-method is-config="true" signature="Browserlunch(java.lang.String)[pri:0, instance:Testpack.VerifyToFeatures@3ee37e5a]" started-at="2023-03-30T22:08:56 IST" name="Browserlunch" finished-at="2023-03-30T22:08:57 IST" duration-ms="865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserlunch -->
+        <test-method is-config="true" signature="POMObject()[pri:0, instance:Testpack.VerifyToFeatures@3ee37e5a]" started-at="2023-03-30T22:08:57 IST" name="POMObject" finished-at="2023-03-30T22:08:57 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- POMObject -->
+        <test-method is-config="true" signature="OpenToFeatures()[pri:0, instance:Testpack.VerifyToFeatures@3ee37e5a]" started-at="2023-03-30T22:08:57 IST" name="OpenToFeatures" finished-at="2023-03-30T22:09:41 IST" duration-ms="44278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenToFeatures -->
+        <test-method signature="VerifyToDesktopTab()[pri:0, instance:Testpack.VerifyToFeatures@3ee37e5a]" started-at="2023-03-30T22:09:41 IST" name="VerifyToDesktopTab" finished-at="2023-03-30T22:09:46 IST" duration-ms="4391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyToDesktopTab -->
+        <test-method is-config="true" signature="LogOutApplication()[pri:0, instance:Testpack.VerifyToFeatures@3ee37e5a]" started-at="2023-03-30T22:09:46 IST" name="LogOutApplication" finished-at="2023-03-30T22:09:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutApplication -->
+        <test-method is-config="true" signature="OpenToFeatures()[pri:0, instance:Testpack.VerifyToFeatures@3ee37e5a]" started-at="2023-03-30T22:09:46 IST" name="OpenToFeatures" finished-at="2023-03-30T22:10:31 IST" duration-ms="44972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenToFeatures -->
+        <test-method signature="verifyTofeatures()[pri:0, instance:Testpack.VerifyToFeatures@3ee37e5a]" started-at="2023-03-30T22:10:31 IST" name="verifyTofeatures" finished-at="2023-03-30T22:10:31 IST" duration-ms="748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTofeatures -->
+        <test-method is-config="true" signature="ClearObject()[pri:0, instance:Testpack.VerifyToFeatures@3ee37e5a]" started-at="2023-03-30T22:10:31 IST" name="ClearObject" finished-at="2023-03-30T22:10:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearObject -->
+        <test-method is-config="true" signature="LogOutApplication()[pri:0, instance:Testpack.VerifyToFeatures@3ee37e5a]" started-at="2023-03-30T22:10:31 IST" name="LogOutApplication" finished-at="2023-03-30T22:10:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Testpack.VerifyToFeatures@3ee37e5a]" started-at="2023-03-30T22:10:32 IST" name="closeBrowser" finished-at="2023-03-30T22:10:32 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Testpack.VerifyToFeatures -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-03-30T22:10:32 IST" name="MsedgeTest" finished-at="2023-03-30T22:11:35 IST" duration-ms="63373">
+      <class name="Testpack.VerifyToDesktop">
+        <test-method is-config="true" signature="Browserlunch(java.lang.String)[pri:0, instance:Testpack.VerifyToDesktop@2e3967ea]" started-at="2023-03-30T22:10:32 IST" name="Browserlunch" finished-at="2023-03-30T22:10:35 IST" duration-ms="2844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Msedge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserlunch -->
+        <test-method is-config="true" signature="POMObject()[pri:0, instance:Testpack.VerifyToDesktop@2e3967ea]" started-at="2023-03-30T22:10:37 IST" name="POMObject" finished-at="2023-03-30T22:10:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- POMObject -->
+        <test-method is-config="true" signature="OpenToFeatures()[pri:0, instance:Testpack.VerifyToDesktop@2e3967ea]" started-at="2023-03-30T22:10:37 IST" name="OpenToFeatures" finished-at="2023-03-30T22:11:12 IST" duration-ms="34146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenToFeatures -->
+        <test-method signature="VerifyToDesktopTab()[pri:0, instance:Testpack.VerifyToDesktop@2e3967ea]" started-at="2023-03-30T22:11:12 IST" name="VerifyToDesktopTab" finished-at="2023-03-30T22:11:16 IST" duration-ms="4317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyToDesktopTab -->
+        <test-method is-config="true" signature="LogOutApplication()[pri:0, instance:Testpack.VerifyToDesktop@2e3967ea]" started-at="2023-03-30T22:11:16 IST" name="LogOutApplication" finished-at="2023-03-30T22:11:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutApplication -->
+        <test-method is-config="true" signature="OpenToFeatures()[pri:0, instance:Testpack.VerifyToDesktop@2e3967ea]" started-at="2023-03-30T22:11:16 IST" name="OpenToFeatures" finished-at="2023-03-30T22:11:22 IST" duration-ms="6315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenToFeatures -->
+        <test-method signature="verifyTofeatures()[pri:0, instance:Testpack.VerifyToDesktop@2e3967ea]" started-at="2023-03-30T22:11:22 IST" name="verifyTofeatures" finished-at="2023-03-30T22:11:23 IST" duration-ms="851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTofeatures -->
+        <test-method is-config="true" signature="LogOutApplication()[pri:0, instance:Testpack.VerifyToDesktop@2e3967ea]" started-at="2023-03-30T22:11:23 IST" name="LogOutApplication" finished-at="2023-03-30T22:11:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutApplication -->
+        <test-method is-config="true" signature="ClearObject()[pri:0, instance:Testpack.VerifyToDesktop@2e3967ea]" started-at="2023-03-30T22:11:23 IST" name="ClearObject" finished-at="2023-03-30T22:11:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearObject -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Testpack.VerifyToDesktop@2e3967ea]" started-at="2023-03-30T22:11:35 IST" name="closeBrowser" finished-at="2023-03-30T22:11:35 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Testpack.VerifyToDesktop -->
+      <class name="Testpack.VerifyToFeatures">
+        <test-method is-config="true" signature="Browserlunch(java.lang.String)[pri:0, instance:Testpack.VerifyToFeatures@5e600dd5]" started-at="2023-03-30T22:10:35 IST" name="Browserlunch" finished-at="2023-03-30T22:10:37 IST" duration-ms="2825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Msedge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserlunch -->
+        <test-method is-config="true" signature="POMObject()[pri:0, instance:Testpack.VerifyToFeatures@5e600dd5]" started-at="2023-03-30T22:10:37 IST" name="POMObject" finished-at="2023-03-30T22:10:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- POMObject -->
+        <test-method is-config="true" signature="OpenToFeatures()[pri:0, instance:Testpack.VerifyToFeatures@5e600dd5]" started-at="2023-03-30T22:10:37 IST" name="OpenToFeatures" finished-at="2023-03-30T22:11:25 IST" duration-ms="47962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenToFeatures -->
+        <test-method signature="VerifyToDesktopTab()[pri:0, instance:Testpack.VerifyToFeatures@5e600dd5]" started-at="2023-03-30T22:11:25 IST" name="VerifyToDesktopTab" finished-at="2023-03-30T22:11:30 IST" duration-ms="4410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyToDesktopTab -->
+        <test-method is-config="true" signature="LogOutApplication()[pri:0, instance:Testpack.VerifyToFeatures@5e600dd5]" started-at="2023-03-30T22:11:30 IST" name="LogOutApplication" finished-at="2023-03-30T22:11:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutApplication -->
+        <test-method is-config="true" signature="OpenToFeatures()[pri:0, instance:Testpack.VerifyToFeatures@5e600dd5]" started-at="2023-03-30T22:11:30 IST" name="OpenToFeatures" finished-at="2023-03-30T22:11:34 IST" duration-ms="3880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenToFeatures -->
+        <test-method signature="verifyTofeatures()[pri:0, instance:Testpack.VerifyToFeatures@5e600dd5]" started-at="2023-03-30T22:11:34 IST" name="verifyTofeatures" finished-at="2023-03-30T22:11:35 IST" duration-ms="1158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTofeatures -->
+        <test-method is-config="true" signature="ClearObject()[pri:0, instance:Testpack.VerifyToFeatures@5e600dd5]" started-at="2023-03-30T22:11:35 IST" name="ClearObject" finished-at="2023-03-30T22:11:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearObject -->
+        <test-method is-config="true" signature="LogOutApplication()[pri:0, instance:Testpack.VerifyToFeatures@5e600dd5]" started-at="2023-03-30T22:11:35 IST" name="LogOutApplication" finished-at="2023-03-30T22:11:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Testpack.VerifyToFeatures@5e600dd5]" started-at="2023-03-30T22:11:35 IST" name="closeBrowser" finished-at="2023-03-30T22:11:35 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Testpack.VerifyToFeatures -->
+    </test> <!-- MsedgeTest -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>

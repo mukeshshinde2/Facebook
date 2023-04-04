@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="Testpack.VerifyToDesktop">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="LogOutApplication"/>
+          <include name="VerifyToDesktopTab"/>
+          <include name="verifyTofeatures"/>
+          <include name="POMObject"/>
+          <include name="ClearObject"/>
+          <include name="OpenToFeatures"/>
+          <include name="Browserlunch"/>
+        </methods>
+      </class> <!-- Testpack.VerifyToDesktop -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
