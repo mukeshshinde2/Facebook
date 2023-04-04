@@ -2,6 +2,7 @@ package Testpack;
 
 import java.util.concurrent.TimeUnit;
 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
@@ -19,13 +20,14 @@ import facebookpage.Featurespage;
 import facebookpage.Loginpage;
 import facebookpage.Massengerpage;
 
+
 public class VerifyToFeatures extends Base {
 
 	WebDriver driver;
-	Loginpage loginpage;
-	Massengerpage massengerpage;
-	Featurespage features;
-	SoftAssert soft;
+	private Loginpage loginpage;
+	private Massengerpage massengerpage;
+	private Featurespage features;
+	private SoftAssert soft;
 	
 	@Parameters ("browser")
 	@BeforeTest
@@ -73,6 +75,7 @@ public class VerifyToFeatures extends Base {
 	@Test
 	public void verifyTofeatures() throws InterruptedException
 	{
+		
         features.returntomassenger();
 		
 		// Actual result
@@ -88,6 +91,7 @@ public class VerifyToFeatures extends Base {
 	@Test
 	public void VerifyToDesktopTab()
 	{
+	
         features.clickdesktop();
 		
 		// Actual result
@@ -102,9 +106,11 @@ public class VerifyToFeatures extends Base {
 	
 	@AfterMethod
 	public void LogOutApplication()
+	
 	{
 		System.out.println("logout");
 	}
+	
 	
 	@AfterClass
 	public void ClearObject ()
